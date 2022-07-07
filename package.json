@@ -1,0 +1,22 @@
+{
+  "name": "skate_api",
+  "version": "1.0.0",
+  "description": "a api here can find skaters with their names, age, trophies woned,  parternships and their positions(regular or goofy)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "brayan baron",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
